@@ -4,7 +4,10 @@
 Spesifikasi API Sistem Informasi Beban Akademik Dosen Terintegrasi UIN SUSKA RIAU 
 
 ## List Of Services
- - [Landmark](https://github.com/digtive/E-Tiket-Asia-Farm/tree/main/documentation/api/landmarks) 
+ - Data Master
+    - [Landmark](https://github.com/digtive/E-Tiket-Asia-Farm/tree/main/documentation/api/landmarks)
+ - Pemaketan
+ - Penjadwalan
 
  
 ## Framework
