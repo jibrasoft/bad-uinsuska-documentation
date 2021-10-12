@@ -5,7 +5,7 @@ Spesifikasi API Sistem Informasi Beban Akademik Dosen Terintegrasi UIN SUSKA RIA
 
 ## List Of Services
  - Data Master
-    - [Landmark](https://github.com/digtive/E-Tiket-Asia-Farm/tree/main/documentation/api/landmarks)
+    - [Dosen](https://github.com/jibrasoft/bad-uinsuska-documentation/tree/main/master/dosen)
  - Pemaketan
  - Penjadwalan
 

@@ -12,7 +12,7 @@ Request :
 - Endpoint : `/api/dosen/{nip}`
 - Header :
     - Accept: application/json
-Response :
+- Response :
 
 ```json 
 {
@@ -43,8 +43,7 @@ Request :
 - Header :
     - Accept: application/json
 - Query Param :
-    - idh : string,
-    - nip : string
+    - idh : string
 Response :
 
 ```json 
