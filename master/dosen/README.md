@@ -20,14 +20,16 @@ Request :
     "status" : "string",
     "message" : "string",
     "data" : {
-         "idh" : "string",
          "nip" : "string",
-         "nma" : "string",
+         "idh" : "string",
+         "nama" : "string",
+         "nidn_nup" : "string",
+         "golongan_jabatan" : "string",
          "email" : "string",
          "homebase": {
-             "nma": "string",
-             "tgl_update": "datetime",
              "idh": "string",
+             "nama": "string",
+             "tgl_update": "datetime",
              "l": "integer",
              "p": "integer",
              "jlh": "integer"
@@ -58,9 +60,9 @@ Response :
             "nma" : "string",
             "email" : "string",
             "homebase": {
-                "nma": "string",
-                "tgl_update": "datetime",
                 "idh": "string",
+                "nama": "string",
+                "tgl_update": "datetime",
                 "l": "integer",
                 "p": "integer",
                 "jlh": "integer"
@@ -72,9 +74,9 @@ Response :
             "nma" : "string",
             "email" : "string",
             "homebase": {
-                "nma": "string",
-                "tgl_update": "datetime",
                 "idh": "string",
+                "nama": "string",
+                "tgl_update": "datetime",
                 "l": "integer",
                 "p": "integer",
                 "jlh": "integer"

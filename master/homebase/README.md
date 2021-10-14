@@ -6,7 +6,7 @@ Homebase API Spec
 ## Authentication
 No authentication needed to use this API
 
-## Get Dosen
+## Get Homebase
 Request :
 - Method : GET
 - Endpoint : `/api/homebase/{idh}`
@@ -30,7 +30,7 @@ Request :
 }
 ```
 
-## List Dosen
+## List Homebase
 Request :
 - Method : GET
 - Endpoint : `/api/homebase`
