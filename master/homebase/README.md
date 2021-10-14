@@ -9,7 +9,7 @@ No authentication needed to use this API
 ## Get Dosen
 Request :
 - Method : GET
-- Endpoint : `/api/dosen/homebase/{idh}`
+- Endpoint : `/api/homebase/{idh}`
 - Header :
     - Accept: application/json
 - Response :
@@ -20,9 +20,9 @@ Request :
     "status" : "string",
     "message" : "string",
     "data" : {
-          "nma": "string",
-          "tgl_update": "datetime",
           "idh": "string",
+          "nama": "string",
+          "tgl_update": "datetime",
           "l": "integer",
           "p": "integer",
           "jlh": "integer"
@@ -33,7 +33,7 @@ Request :
 ## List Dosen
 Request :
 - Method : GET
-- Endpoint : `/api/dosen/homebase`
+- Endpoint : `/api/homebase`
 - Header :
     - Accept: application/json
 Response :
@@ -45,17 +45,17 @@ Response :
     "message" : "string",
     "data" : [
         {
-            "nma": "string",
-            "tgl_update": "datetime",
             "idh": "string",
+            "nama": "string",
+            "tgl_update": "datetime",
             "l": "integer",
             "p": "integer",
             "jlh": "integer"
         },
         {
-            "nma": "string",
-            "tgl_update": "datetime",
             "idh": "string",
+            "nama": "string",
+            "tgl_update": "datetime",
             "l": "integer",
             "p": "integer",
             "jlh": "integer"
