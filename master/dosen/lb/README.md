@@ -6,7 +6,7 @@ Dosen LB API Spec
 ## Authentication
 No authentication needed to use this API
 
-## Get Dosen
+## Get Dosen LB
 Request :
 - Method : GET
 - Endpoint : `/api/dosen/lb/{nip}`
@@ -22,7 +22,6 @@ Request :
     "data" : {
          "nip" : "string",
          "idh" : "string",
-         "idj" : "string|null",
          "nama" : "string",
          "nidn_nup" : "string",
          "golongan_jabatan" : "string",
@@ -34,20 +33,15 @@ Request :
              "l": "integer",
              "p": "integer",
              "jlh": "integer"
-         },
-         "jabatan" : {
-              "idj" : "string",
-              "nama" : "string",
-              "sks" : "integer"
          }
     }
 }
 ```
 
-## List Dosen
+## List Dosen LB
 Request :
 - Method : GET
-- Endpoint : `/api/lb/dosen`
+- Endpoint : `/api/dosen/lb`
 - Header :
     - Accept: application/json
 - Query Param :
@@ -63,7 +57,6 @@ Request :
         {
              "nip" : "string",
              "idh" : "string",
-             "idj" : "string|null",
              "nama" : "string",
              "nidn_nup" : "string",
              "golongan_jabatan" : "string",
@@ -75,17 +68,11 @@ Request :
                  "l": "integer",
                  "p": "integer",
                  "jlh": "integer"
-             },
-             "jabatan" : {
-                  "idj" : "string",
-                  "nama" : "string",
-                  "sks" : "integer"
              }
         },
         {
              "nip" : "string",
              "idh" : "string",
-             "idj" : "string|null",
              "nama" : "string",
              "nidn_nup" : "string",
              "golongan_jabatan" : "string",
@@ -97,12 +84,7 @@ Request :
                  "l": "integer",
                  "p": "integer",
                  "jlh": "integer"
-             },
-            "jabatan" : {
-                  "idj" : "string",
-                  "nama" : "string",
-                  "sks" : "integer"
-            }
+             }
         }
     ]
 }
