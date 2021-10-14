@@ -22,17 +22,23 @@ Request :
     "data" : {
          "nip" : "string",
          "idh" : "string",
+         "idj" : "string|null",
          "nama" : "string",
          "nidn_nup" : "string",
          "golongan_jabatan" : "string",
          "email" : "string",
-         "homebase": {
+         "homebase" : {
              "idh": "string",
              "nama": "string",
              "tgl_update": "datetime",
              "l": "integer",
              "p": "integer",
              "jlh": "integer"
+         },
+         "jabatan" : {
+              "idj" : "string",
+              "nama" : "string",
+              "sks" : "integer"
          }
     }
 }
@@ -46,7 +52,7 @@ Request :
     - Accept: application/json
 - Query Param :
     - idh : string
-Response :
+- Response :
 
 ```json 
 {
@@ -55,31 +61,47 @@ Response :
     "message" : "string",
     "data" : [
         {
-            "idh" : "string",
-            "nip" : "string",
-            "nma" : "string",
-            "email" : "string",
-            "homebase": {
-                "idh": "string",
-                "nama": "string",
-                "tgl_update": "datetime",
-                "l": "integer",
-                "p": "integer",
-                "jlh": "integer"
-            }
+             "nip" : "string",
+             "idh" : "string",
+             "idj" : "string|null",
+             "nama" : "string",
+             "nidn_nup" : "string",
+             "golongan_jabatan" : "string",
+             "email" : "string",
+             "homebase" : {
+                 "idh": "string",
+                 "nama": "string",
+                 "tgl_update": "datetime",
+                 "l": "integer",
+                 "p": "integer",
+                 "jlh": "integer"
+             },
+             "jabatan" : {
+                  "idj" : "string",
+                  "nama" : "string",
+                  "sks" : "integer"
+             }
         },
         {
-            "idh" : "string",
-            "nip" : "string",
-            "nma" : "string",
-            "email" : "string",
-            "homebase": {
-                "idh": "string",
-                "nama": "string",
-                "tgl_update": "datetime",
-                "l": "integer",
-                "p": "integer",
-                "jlh": "integer"
+             "nip" : "string",
+             "idh" : "string",
+             "idj" : "string|null",
+             "nama" : "string",
+             "nidn_nup" : "string",
+             "golongan_jabatan" : "string",
+             "email" : "string",
+             "homebase" : {
+                 "idh": "string",
+                 "nama": "string",
+                 "tgl_update": "datetime",
+                 "l": "integer",
+                 "p": "integer",
+                 "jlh": "integer"
+             },
+            "jabatan" : {
+                  "idj" : "string",
+                  "nama" : "string",
+                  "sks" : "integer"
             }
         }
     ]
