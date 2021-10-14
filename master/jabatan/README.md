@@ -27,14 +27,12 @@ Request :
 }
 ```
 
-## List Dosen
+## List Jabatan
 Request :
 - Method : GET
-- Endpoint : `/api/dosen`
+- Endpoint : `/api/jabatan`
 - Header :
     - Accept: application/json
-- Query Param :
-    - idh : string
 - Response :
 
 ```json 
